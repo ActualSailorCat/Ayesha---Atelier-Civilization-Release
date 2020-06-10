@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Language="en_US" Tag="LOC_LEADER_SAILOR_AYESHA_NAME">
+			<Text>Ayesha</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_SAILOR_AYESHA_UA_NAME">
+			<Text>The Alchemist of Dusk</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_SAILOR_AYESHA_UA_DESCRIPTION">
+			<Text>Units gain a +10 [ICON_DAMAGED] healing bonus when on a tile with a resource or [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Site. Excavating an [ICON_GREATWORK_ARTIFACT_MEDIEVAL] Artifact grants experience to all units, and replaces the [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Site with a Fort improvement. Can see [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Sites once any civilization has researched Natural History.</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_SAILOR_AYESHA_UA_XP_DESCRIPTION">
+			<Text>Units gain a +10 [ICON_DAMAGED] healing bonus when on a tile with a resource or [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Site. Excavating an [ICON_GREATWORK_ARTIFACT_MEDIEVAL] Artifact grants experience to all units, and replaces the [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Site with a Fort improvement. Can see [ICON_RESOURCE_ANTIQUITY_SITE] Antiquity Sites once any civilization has researched Natural History.</Text>
+		</Replace>
+
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_AYESHA" Language="en_US">
+			<Text>
+				Ayesha Altugle, the Alchemist of Dusk. Let your herbs, tinctures, and salves join your stubborn, upbeat resolve. Let them bolster your alchemy as you venture into the maw of the forgotten. Brave these ruins and their treacherous inhabitants. Claim the artifacts and knowledge buried deep within. Emerge equipped with both, and you shall lead your civilization into an era of prosperity.
+			</Text>
+		</Row>
+
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_TITLE" Language="en_US">
+			<Text>Ayesha</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_SUBTITLE" Language="en_US">
+			<Text>Ayesha Altugle</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_QUOTE" Language="en_US">
+			<Text>
+				I was never really big into meat, but I can't get enough of yours.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Ayesha is a young apothecary living in a small and secluded workshop with her elderly grandfather and younger sister Nio Altugle. She is talented in making all sorts of remedies and medications, which are very famously known across the country. Because she leads such a secluded life, Ayesha is a very naïve person, although very kind.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>
+				When she leaves on her journey, she is very eager to learn more about becoming an alchemist even though she knows very little about it. She is very keen to try new things, even if she is unsuccessful or unsure of herself. As her confidence grows, Ayesha gains knowledge and becomes a very powerful alchemist. She is known for her upbeat attitude and for never giving up on her goals, no matter how impossible or difficult they may seem.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>
+				After her grandfather dies, her young sister mysteriously disappears. After being fully abandoned, Ayesha struggles to move on with her life. Despite being faced with constant hardship, Ayesha tries to remain as upbeat as possible, and continues to run her family's workshop.
+			</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_AYESHA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>
+				While visiting her sister's grave on the third anniversary of her disappearance, Ayesha sees a figure who looks nearly identical to her missing sister. A by-passing alchemist tells Ayesha that her sister is alive, but she will not be able to reach her with her own hands. This gives Ayesha a whole new hope that her sister may still be alive, and she sets out on an adventure to be reunited with Nio.
+			</Text>
+		</Row>
+
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>I'm Ayesha Altugle—apothecary, alchemist, and adventurer-archaeologist.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Would you like to join me for a picnic in the shade of the Altugle Herb Garden? I'll bring flower muffins and squash tea.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Let's.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Vierzeberg's walls loom tall and stolid, but inside, its sprawl is all so much vigor. From the stacks of Zweiteturm to my sister's pharmacy. Come see for yourself.</Text>
+		</Row>
+
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Are you in need of aid?</Text>
+		</Row>
+
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Oh, absolutely.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Gee, would you look at that? The gate's closed.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Several of my artefacts and treasures have found their way into a delegation. Please welcome them.</Text>
+		</Row>
+
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Sure!</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Nope!</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>I'm out in search of dusty old ruins. Mind if I check yours for dust?</Text>
+		</Row>
+
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Super.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>We can't synthesize until I figure out your traits.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Did you know that friendship is a potent cure-all? Here, take one.</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Don't you feel better already?</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>This is bad for your health.</Text>
+		</Row>
+
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Ruins are jam-packed with traps, monsters, and bellyaches. Our odds are better together.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Remove your troops from my border. The sign clearly reads, "No walking in the flower garden."</Text>
+		</Row>
+
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>A deal's a deal.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>You catch more flies with honey. Do you have honey?</Text>
+		</Row>
+
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>My, my. There's no remedy for your personality.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>You're a disease for which there is no cure. A blight upon all lands and peoples. (Denounces You.)</Text>
+		</Row>
+
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Apothecaries know poisons, too.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>You're a greedy, virulent weed, and for that, you must be uprooted.</Text>
+		</Row>
+
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>This'll allow us to tend to the wounded.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Sure. Just wait right there while I finish synthesizing this Zeit Bomb.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>This war can't apothe-carry on.</Text>
+		</Row>
+
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>All I've helped, all I've seen, all the friends I've made... I've lived the best life I could. I hope you do, too.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Don't worry. It'll be okay. I have something for the pain.</Text>
+		</Row>
+
+
+		<!--LEADER AGENDA-->
+		<Row Tag="LOC_AGENDA_SAILOR_AYESHA_NAME" Language="en_US">
+			<Text>Apothecary</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAILOR_AYESHA_DESCRIPTION" Language="en_US">
+			<Text>Ayesha likes civilizations that harness nature's bounty by improving tiles, and dislikes those that do not.</Text>
+		</Row>
+		<!--
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_APOTHECARY" Language="en_US">
+			<Text>CHANGEME</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_APOTHECARY" Language="en_US">
+			<Text>They are watching your progress on improving your territory</Text>
+		</Row>-->
+
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>I'm glad you scour the land for the tinctures and salves that benefit your people.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_AYESHA_ANY" Language="en_US">
+			<Text>Your land teems with resources, yet you ignore their healing properties—to the detriment of your people.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
