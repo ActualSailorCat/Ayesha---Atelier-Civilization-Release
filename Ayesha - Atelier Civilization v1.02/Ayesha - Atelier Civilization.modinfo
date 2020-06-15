@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1817ad60-de67-4c77-a1cf-5051a7bbb7c8" version="1">
+  <Properties>
+    <Name>[COLOR:ConnectionStatus_Connected]Ayesha[ENDCOLOR] - Atelier Civilization</Name>
+    <Description>Adds Ayesha as an alternative leader of the Atelier Civilization.</Description>
+    <Created>1592236905</Created>
+    <Teaser>Adds Ayesha to the Atelier Civilization.</Teaser>
+    <Authors>SailorCat</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="ayesha_config">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/SAILOR_Ayesha_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ayesha_txt">
+      <File>Core/SAILOR_Ayesha_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="ayesha_colors">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/SAILOR_Ayesha_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="ayesha_art">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Ayesha - Atelier Civilization.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="ayesha_icons">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Icons/SAILOR_Ayesha_Icons.xml</File>
+    </UpdateIcons>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="ayesha_db">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/SAILOR_Ayesha_Defines.sql</File>
+      <File>Core/SAILOR_Ayesha_Traits.sql</File>
+      <File>Core/SAILOR_Ayesha_AI.sql</File>
+      <File>Core/SAILOR_Ayesha_Agenda.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ayesha_txt">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/SAILOR_Ayesha_Text.xml</File>
+    </UpdateText>
+    <UpdateColors id="ayesha_colors">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/SAILOR_Ayesha_Colors.sql</File>
+    </UpdateColors>
+    <UpdateArt id="ayesha_art">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Ayesha - Atelier Civilization.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="ayesha_lua">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Core/Lua/SAILOR_Ayesha_Functions.lua</File>
+      <File>Core/Lua/SAILOR_Ayesha_Antiquity_Net.lua</File>
+    </AddGameplayScripts>
+    <UpdateIcons id="ayesha_icons">
+      <Properties>
+        <LoadOrder>1779</LoadOrder>
+      </Properties>
+      <File>Icons/SAILOR_Ayesha_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/LeaderFallbacks.artdef</File>
+    <File>Artdefs/Leaders.artdef</File>
+    <File>Ayesha - Atelier Civilization.dep</File>
+    <File>Core/Lua/SAILOR_Ayesha_Antiquity_Net.lua</File>
+    <File>Core/Lua/SAILOR_Ayesha_Functions.lua</File>
+    <File>Core/SAILOR_Ayesha_Agenda.sql</File>
+    <File>Core/SAILOR_Ayesha_AI.sql</File>
+    <File>Core/SAILOR_Ayesha_Colors.sql</File>
+    <File>Core/SAILOR_Ayesha_Config.sql</File>
+    <File>Core/SAILOR_Ayesha_Defines.sql</File>
+    <File>Core/SAILOR_Ayesha_Text.xml</File>
+    <File>Core/SAILOR_Ayesha_Traits.sql</File>
+    <File>Icons/SAILOR_Ayesha_Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>XLPs/Atlas.xlp</File>
+    <File>XLPs/LeaderFallbacks.xlp</File>
+    <File>XLPs/UILeaders.xlp</File>
+  </Files>
+</Mod>
